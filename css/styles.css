@@ -1,0 +1,70 @@
+:root {
+  --main-background-color: #f5f5f5;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --hero-btn-color: #188ce8;
+  --hero-bg-color: #2f303a;
+  --footer-bg-color: #2f303a;
+  --hero-text-color: #ffffff;
+  --footer-text-color: #ffffff;
+  --act-btn-txt-color: #ffffff;
+}
+
+body {
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+}
+
+.list {
+  list-style: none;
+}
+.logo,
+.logo1 {
+  text-decoration: none;
+}
+.logo {
+  color: #000000;
+}
+.logo1 {
+  color: #2196f3;
+}
+.nav-list a,
+.mailto a,
+.call a {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+.nav-list a:hover,
+.mailto a:hover,
+.call a:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.hero {
+  background-color: var(--hero-bg-color);
+  color: var(--hero-text-color);
+}
+.hero-btn {
+  background-color: var(--hero-btn-color);
+  color: var(--hero-text-color);
+}
+.benefits-txt,
+.team-role {
+  color: var(--secondary-text-color);
+}
+.footer {
+  background-color: var(--footer-bg-color);
+}
+.footer a {
+  text-decoration: none;
+}
+
+.footer .logo,
+.footer .address {
+  color: var(--footer-text-color);
+}
+.footer-mailto,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
